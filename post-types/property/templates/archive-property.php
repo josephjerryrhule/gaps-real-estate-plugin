@@ -30,6 +30,8 @@ $qodef_taxonomy_name = '';
 
     .gapslocation-title {
         padding-left: 4rem;
+        padding-bottom: 4rem;
+        width: 600px;
     }
 
     .gapstitle {
@@ -38,6 +40,13 @@ $qodef_taxonomy_name = '';
         font-size: 4rem;
         line-height: 4rem;
         font-weight: 600;
+        border-bottom: 1px solid #fff;
+    }
+
+    .gapslocationdescription {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
     }
 </style>
 <div class="gaps-header-image" style="background-image:url('<?php echo esc_url($type_image); ?>');">
