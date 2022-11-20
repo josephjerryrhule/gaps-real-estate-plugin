@@ -8,9 +8,8 @@
                 $img_desc = get_post_meta($image_id, '_wp_attachment_image_alt', true);
 
                 if ($img_url !== '') { ?>
-                    <img class="qodef-psg-gallery-image" src="<?php echo esc_url($img_url[0]); ?>"
-                         alt="<?php echo esc_attr($img_desc); ?>"/>
-                <?php }
+                    <img class="qodef-psg-gallery-image" src="<?php echo esc_url($img_url[0]); ?>" alt="<?php echo esc_attr($img_desc); ?>" />
+        <?php }
                 $i++;
             }
         } ?>
@@ -27,9 +26,9 @@
         if (!empty($title)) { ?>
 
             <h3 class="qodef-psg-full-address">
-	            <a itemprop="url" class="qodef-psg-link" href="<?php echo get_permalink($property_id); ?>" target="_self">
+                <a itemprop="url" class="qodef-psg-link" href="<?php echo get_permalink($property_id); ?>" target="_self">
                     <span><?php echo esc_attr($property_id_meta . ' ' . $title); ?></span>
-	            </a>
+                </a>
             </h3>
 
         <?php }
