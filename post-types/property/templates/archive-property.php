@@ -48,6 +48,11 @@ $qodef_taxonomy_name = '';
         color: #fff;
         font-weight: 500;
     }
+
+    .qodef-property-list-holder.qodef-pl-with-map .qodef-property-list-items-part {
+        float: unset;
+        width: 100%;
+    }
 </style>
 <div class="gaps-header-image" style="background-image:url('<?php echo esc_url($type_image); ?>');">
     <div class="gaps-header-overlay">
